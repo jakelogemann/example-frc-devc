@@ -1,0 +1,23 @@
+{
+	"name": "FIRST Robotics Competition",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"wpilibsuite.vscode-wpilib",
+				"vscjava.vscode-java-pack",
+				"ms-vscode.cpptools-extension-pack"
+			]
+		},
+		"codespaces": {
+			"openFiles": [
+				"src/main/cpp/Robot.cpp"
+			]
+		}
+	},
+}
